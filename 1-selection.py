@@ -1,9 +1,11 @@
 #function for selection sort
 def selection(ar):
     n = len(ar)
-    for i in range(len(ar)):
+
+    # run loop till length of list
+    for i in range(n):
         min= i
-        for j in range(i+1, len(ar)):
+        for j in range(i+1, n):
             if ar[min] > ar[j]:
                 min = j
         #swap
