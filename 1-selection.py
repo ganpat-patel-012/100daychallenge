@@ -2,7 +2,7 @@
 def selection(ar):
     n = len(ar)
 
-    # run loop till length of list
+    # run loop till length of list ar
     for i in range(n):
         min= i
         for j in range(i+1, n):
