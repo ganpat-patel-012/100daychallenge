@@ -13,7 +13,7 @@ def bubble(ar):
                 ar[j], ar[j+1] = ar[j+1], ar[j] 
     
 
-# declaring a list
+# declaring a list to ar
 ar = [1,5,3,4,8,7]
 
 # print list elemnts before soarting
